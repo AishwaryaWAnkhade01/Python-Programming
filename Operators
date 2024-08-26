@@ -1,0 +1,101 @@
+#Operators 
+Types of Operators in Python :
+1) Arithmetic operators
+
+#Addition:
+num_1=2
+num2=10
+sum=num_1+num_2
+print(sum)
+
+#Substraction:
+num_1=10
+num_2=50
+sub=num_1-num_2
+print(sub)
+
+#Multiplication:
+num_1=6
+num_2=7
+product=num1*num_2
+print(product)
+
+#Division:
+num_1=4
+num_2=2
+division=num1_/num_2
+print(division)
+
+#Floor division
+num_1=16
+num_2=4
+modulo=num_2%num_1
+print(modulo)
+
+****************************************************************************************************************************
+2)logical Operators 
+
+types of logical operators:
+1)True
+2)False
+
+#1. 
+sum=10
+if sum==10
+else:
+print("Not equal")
+
+
+#2.
+num=10
+if num==10
+else:
+prinT("Not equal)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3)Comparison Operators 
+4)Assignment operators
+5)Bitwise Operator
+6)identity Operators 
+7)Membership Operators
+8)Conditional Expression
+
+
+
+
