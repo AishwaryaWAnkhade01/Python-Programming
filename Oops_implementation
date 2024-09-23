@@ -1,0 +1,64 @@
+1.class & Object Creation:
+#Create a class Student with attributes name and age. Define a method display() that prints the student's details. Create two objects of the class and display their details.
+code:
+class Student:
+    def display(self,name,age):
+        name=name
+        age=age
+        print(f'my name is {name} and my age is {age}')
+
+student=Student()
+student.display('aishwarya',23)
+
+2.Constructor Usage
+Question: Write a Python program that defines a class Rectangle with attributes length and width.
+Use a constructor to initialize these values. Also, create a method area() to return the area of the rectangle.
+code:
+class Rectangle:
+    def __init__(self,length,width):
+     self.len=length
+     self.width=width
+
+    def area(self):
+        area_of_rectangle=self.len*self.width
+        return area_of_rectangle
+rectangle=Rectangle(5,3)
+print(rectangle.area())
+
+3. Inheritance
+Question: Create a class Person with attributes name and age, and a method display().
+# Inherit a class Employee from Person and add an additional attribute salary. Override the display() method to include salary.
+Code:
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    def display(self):
+        print(f'The name is {self.name}, the age is {self.age}')
+class Employee(Person):
+    def __init__(self,name,age,salary):
+        super().__init__(name,age)
+        self.salary=salary
+
+    def display_info(self):
+            print(f'salary is {self.salary}')
+
+
+
+employee=Employee('Aishwarya',23,150000)
+employee.display()
+employee.display_info()
+
+4. Polymorphism
+Question: Write a Python program that defines two classes Cat and Dog. 
+Both classes should have a method sound() that prints different sounds for each. 
+Write a function that takes an object and calls the sound() method, demonstrating polymorphism.
+
+
+
+
+
+
+
+
