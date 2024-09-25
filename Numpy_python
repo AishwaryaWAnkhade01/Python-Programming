@@ -1,0 +1,64 @@
+# NumPy Basic Examples
+
+This repository contains basic examples of using the NumPy library in Python.
+
+## Code Snippets
+
+1. **Importing NumPy**: How to import the library.
+2. **Creating a NumPy Array**: Create an array from a list.
+3. **Multi-Dimensional Array**: Create a 2D array (matrix).
+4. **Accessing Elements**: How to access elements in an array.
+5. **Array Shape**: Get the shape of an array.
+6. **Reshaping an Array**: Change the shape of an existing array.
+7. **Mathematical Operations**: Perform basic math operations on arrays.
+8. **Array Statistics**: Calculate mean and standard deviation.
+9. **Slicing Arrays**: Access parts of an array.
+10. **Concatenating Arrays**: Join two arrays together.
+
+
+#Basic program of python with numpy library:
+import numpy as np
+#Creating a NumPy Array
+arr = np.array([1, 2, 3, 4, 5])
+print(arr)
+
+#Creating a Multi-Dimensional Array
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+print(matrix)
+
+#Accessing Elements in an Array
+arr = np.array([10, 20, 30, 40, 50])
+print(arr[2]) 
+# Output: 30
+
+#Array Shape
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+print(matrix.shape)
+
+#Reshaping an Array
+arr = np.array([1, 2, 3, 4, 5, 6])
+reshaped = arr.reshape(2, 3)
+print(reshaped)
+
+#Basic Mathematical Operations
+arr = np.array([1, 2, 3])
+print(arr + 5)  
+print(arr * 2)  
+
+>> Output: [6 7 8]
+>> Output: [2 4 6]
+
+
+#Slicing Arrays
+arr = np.array([10, 20, 30, 40, 50])
+print(arr[1:4])
+
+>> Output: [20 30 40]
+
+#Concatenating Arrays
+# Concatenating two arrays
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([4, 5, 6])
+concatenated = np.concatenate((arr1, arr2))
+print(concatenated) 
+>> # Output: [1 2 3 4 5 6]
